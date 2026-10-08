@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The portfolio of an independent graphic designer creating thoughtful identities, campaigns, and digital experiences."
+    />
+    <meta name="theme-color" content="#f5f3ed" />
+    <title>Rutuparn — Graphic Designer & Art Director</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Rutuparn home">R<span>.</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+      </nav>
+      <a class="header-contact" href="mailto:hello@rutuparn.design">
+        Let's talk <span aria-hidden="true">↗</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#work">Work <span>01</span></a>
+      <a href="#about">About <span>02</span></a>
+      <a href="#services">Services <span>03</span></a>
+      <a href="mailto:hello@rutuparn.design">Contact <span>↗</span></a>
+    </nav>
+
+    <main>
+      <section class="hero section-wrap" id="home">
+        <div class="hero-topline">
+          <span class="eyebrow"><span class="status-dot"></span> Independent designer & art director</span>
+          <span class="eyebrow hero-location">Based everywhere · Working worldwide</span>
+        </div>
+        <div class="hero-title-wrap">
+          <h1>Good design<br />makes you <span class="hero-serif">feel</span><span class="hero-period">.</span></h1>
+          <div class="hero-sticker" aria-label="Thoughtfully made, always">
+            <span>THOUGHTFULLY</span>
+            <span>MADE, ALWAYS</span>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3v42M3 24h42M9.15 9.15l29.7 29.7m0-29.7-29.7 29.7" /></svg>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <p>I build expressive visual identities and digital experiences for people doing good things.</p>
+          <a class="text-link" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-sun"></div>
+          <span class="art-word art-word-top">MAKE</span>
+          <span class="art-word art-word-bottom">SOME</span>
+          <span class="art-word art-word-side">NOISE</span>
+          <span class="art-caption">A little more<br />feeling, please.</span>
+          <span class="art-number">FIG. 01 — 2025</span>
+        </div>
+      </section>
+
+      <section class="work section-wrap" id="work">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">A few good things</span>
+            <h2>Selected work<span class="heading-star">✳</span></h2>
+          </div>
+          <p>A collection of identities, ideas<br />and happy little accidents.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All work <span>06</span></button>
+          <button class="filter-button" type="button" data-filter="identity" aria-pressed="false">Identity</button>
+          <button class="filter-button" type="button" data-filter="digital" aria-pressed="false">Digital</button>
+          <button class="filter-button" type="button" data-filter="print" aria-pressed="false">Print</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-large" data-category="identity print">
+            <a href="mailto:hello@rutuparn.design?subject=Tell%20me%20about%20Sunday%20Market" class="project-link" aria-label="Ask about the Sunday Market project">
+              <div class="project-image image-market">
+                <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1400&q=85" alt="Colorful art and objects displayed at a creative market" loading="lazy" />
+                <span class="image-label label-market">A GOOD<br />DAY OUT</span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Sunday Market</h3><p>Making the everyday a little more special.</p></div>
+                <span class="project-type">Identity · Print</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card project-offset" data-category="identity digital">
+            <a href="mailto:hello@rutuparn.design?subject=Tell%20me%20about%20Good%20Nature" class="project-link" aria-label="Ask about the Good Nature project">
+              <div class="project-image image-nature">
+                <img src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1200&q=85" alt="Lush green leaves in warm natural light" loading="lazy" />
+                <span class="nature-mark">good<br /><i>nature</i></span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Good Nature</h3><p>Plant-based care, rooted in the good stuff.</p></div>
+                <span class="project-type">Identity · Digital</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card" data-category="identity print">
+            <a href="mailto:hello@rutuparn.design?subject=Tell%20me%20about%20Forma" class="project-link" aria-label="Ask about the Forma project">
+              <div class="project-image image-forma">
+                <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=85" alt="Sculptural modern furniture in a sunlit interior" loading="lazy" />
+                <span class="forma-mark">forma<span>®</span></span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Forma Objects</h3><p>Considered pieces for considered spaces.</p></div>
+                <span class="project-type">Identity · Print</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card project-offset-small" data-category="digital">
+            <a href="mailto:hello@rutuparn.design?subject=Tell%20me%20about%20Offbeat" class="project-link" aria-label="Ask about the Offbeat project">
+              <div class="project-image image-offbeat">
+                <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=85" alt="Musician performing under colorful stage lights" loading="lazy" />
+                <span class="offbeat-mark">OFF<br /><i>BEAT</i><span>LIVE LOUD / FEEL MORE</span></span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Offbeat Festival</h3><p>For the music you haven't heard yet.</p></div>
+                <span class="project-type">Digital</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card project-large" data-category="identity digital">
+            <a href="mailto:hello@rutuparn.design?subject=Tell%20me%20about%20Little%20Good" class="project-link" aria-label="Ask about the Little Good project">
+              <div class="project-image image-littlegood">
+                <img src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&w=1400&q=85" alt="Colorful fresh food arranged for a shared meal" loading="lazy" />
+                <span class="little-label">GOOD<br />THINGS<br /><i>INSIDE.</i></span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Little Good</h3><p>Big-hearted snacks with a brighter future.</p></div>
+                <span class="project-type">Identity · Digital</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card project-offset" data-category="print">
+            <a href="mailto:hello@rutuparn.design?subject=Tell%20me%20about%20Soft%20Edges" class="project-link" aria-label="Ask about the Soft Edges project">
+              <div class="project-image image-soft">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=85" alt="Thoughtfully styled clothing in soft natural colors" loading="lazy" />
+                <span class="soft-mark">soft<br />edges<span>OBJECTS FOR SLOWER DAYS</span></span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Soft Edges</h3><p>A print world for slower, softer living.</p></div>
+                <span class="project-type">Print</span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-wrap" id="about">
+        <div class="about-left">
+          <span class="eyebrow">A little about me</span>
+          <h2>Nice work.<br />Nice people.<br /><span>Good energy.</span></h2>
+          <a class="text-link" href="mailto:hello@rutuparn.design">A bit more about me <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="about-right">
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1000&q=85" alt="A lively creative gathering filled with color and ideas" loading="lazy" />
+            <span class="about-image-note">CURIOUS BY NATURE<br />DESIGNER BY CHOICE</span>
+          </div>
+          <p class="about-copy">I'm an independent graphic designer partnering with ambitious people to make thoughtful things matter. From the first scribble to the final pixel, I bring clarity, character and a healthy dose of curiosity to every project.</p>
+        </div>
+      </section>
+
+      <section class="services section-wrap" id="services">
+        <div class="section-heading">
+          <div><span class="eyebrow">What I can help with</span><h2>Good ideas,<br />made real<span class="heading-star">✳</span></h2></div>
+          <p>Small studio energy.<br />Big picture thinking.</p>
+        </div>
+        <div class="service-list">
+          <div class="service-row"><span class="service-index">01</span><h3>Brand identity</h3><p>Strategy · Naming · Visual identity · Guidelines</p><span class="service-symbol">↗</span></div>
+          <div class="service-row"><span class="service-index">02</span><h3>Digital design</h3><p>Websites · Art direction · Social campaigns</p><span class="service-symbol">↗</span></div>
+          <div class="service-row"><span class="service-index">03</span><h3>Print & packaging</h3><p>Packaging · Editorial · Posters · The good stuff</p><span class="service-symbol">↗</span></div>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact">
+        <div class="contact-topline"><span class="eyebrow">Have a good one in mind?</span><span class="eyebrow">Currently open for projects</span></div>
+        <h2>Let's make<br />something <em>matter.</em></h2>
+        <a class="contact-button" href="mailto:hello@rutuparn.design">Tell me about it <span aria-hidden="true">↗</span></a>
+        <div class="contact-decoration" aria-hidden="true">✳</div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <a class="footer-mark" href="#home">R<span>.</span></a>
+      <p>Independent by nature. Collaborative by design.</p>
+      <div class="footer-links">
+        <a href="mailto:hello@rutuparn.design">Email</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a>
+        <span>© <span id="year"></span> Rutuparn</span>
+      </div>
+    </footer>
+  </body>
+</html>
